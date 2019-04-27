@@ -1,1 +1,1 @@
-console.log(cuboid.surfaceArea()); // 130
+this.side = side;
