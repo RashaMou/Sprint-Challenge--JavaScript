@@ -7,10 +7,9 @@
   * In the body of the function return the callback with the two parameters that you created
 */
 
-function consume(param1, param2, callback) {
-  console.log(callback(param1, param2));
+function consume(arg1, arg2, callback) {
+  console.log(callback(arg1, arg2)); 
 }
-
 
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
@@ -18,9 +17,12 @@ function consume(param1, param2, callback) {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-const add = (num1, num2) => num1 + num2;
+const add = (num1, num2) => num1+num2;
+
 const multiply = (num1, num2) => num1 * num2;
-const greeting = (firstName, LastName) => `Hello ${firstName} ${LastName}, nice to meet you!`;
+
+const greeting = (firstName, lastName) => `Hello, ${firstName} ${lastName}, nice to meet you!`;
+
 
 
 
